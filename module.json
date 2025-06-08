@@ -2,7 +2,7 @@
   "id": "pf2e-ap200-seven-dooms-for-sandpoint",
   "title": "Seven Dooms for Sandpoint",
   "description": "The town of Sandpoint has seen more than its fair share of danger and trouble over the years, including harrowing fires, prolific serial killers, goblin raids, and attacks by giants and dragons, but what faces the so-called Light of the Lost Coast now is its greatest threat yet! Something sinister has been manipulating events all along, and now a new band of heroes must step in to save this legendary small town from seven deadly dooms!",
-  "manifest": "https://cdn.paizo.com/foundry/modules/pf2e-ap200-seven-dooms-for-sandpoint/module.json",
+  "manifest": "https://github.com/SortaSideEffect/seveny/raw/refs/heads/main/module.json",
   "url": "https://paizo.com/products/btq02f0z?Pathfinder-Adventure-Path-Seven-Dooms-for-Sandpoint-BUNDLE",
   "version": "12.1.0",
   "media": [
@@ -124,5 +124,5 @@
       "folders": []
     }
   ],
-  "protected": true
+  "protected": false
 }
