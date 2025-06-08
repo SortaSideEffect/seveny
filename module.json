@@ -1,0 +1,128 @@
+{
+  "id": "pf2e-ap200-seven-dooms-for-sandpoint",
+  "title": "Seven Dooms for Sandpoint",
+  "description": "The town of Sandpoint has seen more than its fair share of danger and trouble over the years, including harrowing fires, prolific serial killers, goblin raids, and attacks by giants and dragons, but what faces the so-called Light of the Lost Coast now is its greatest threat yet! Something sinister has been manipulating events all along, and now a new band of heroes must step in to save this legendary small town from seven deadly dooms!",
+  "manifest": "https://cdn.paizo.com/foundry/modules/pf2e-ap200-seven-dooms-for-sandpoint/module.json",
+  "url": "https://paizo.com/products/btq02f0z?Pathfinder-Adventure-Path-Seven-Dooms-for-Sandpoint-BUNDLE",
+  "version": "12.1.0",
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://cdn.paizo.com/e7fd0eeb-9d7d-006b-7558-1a3e2f7bd8df/b774b61a-b98d-4ef0-9094-53ae2e1f54e7/PZO90200.jpg",
+      "loop": false,
+      "flags": {}
+    },
+    {
+      "type": "icon",
+      "url": "https://cdn.paizo.com/image/navigation/Nav-Logo-Global.png",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "adventures",
+      "label": "Seven Dooms for Sandpoint",
+      "path": "packs/adventures",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Adventure",
+      "flags": {}
+    },
+    {
+      "name": "items",
+      "label": "Items",
+      "path": "packs/items",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "type": "Item",
+      "flags": {
+        "sigil": {
+          "static": true
+        }
+      }
+    }
+  ],
+  "scripts": [],
+  "esmodules": [
+    "./index.js"
+  ],
+  "styles": [
+    "./style.css"
+  ],
+  "authors": [
+    {
+      "name": "Paizo",
+      "url": "https://paizo.com/",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "12.324",
+    "verified": "12"
+  },
+  "relationships": {
+    "recommends": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/raw/4.6.10/module/module.json"
+      }
+    ],
+    "systems": [
+      {
+        "id": "pf2e",
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "flags": {
+          "sigil": {
+            "localDevVersion": {
+              "distPath": "dist"
+            }
+          }
+        },
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "6.0.0"
+        }
+      }
+    ]
+  },
+  "flags": {
+    "pf2e-ap200-seven-dooms-for-sandpoint": {
+      "adventureImporter": {
+        "Compendium.pf2e-ap200-seven-dooms-for-sandpoint.adventures.Adventure.pf2ap200adv00001": {
+          "initialJournalEntryId": "pf2ap20000frontm",
+          "initialJournalPageId": "00landing0000000",
+          "initialSceneId": "4OYNTOK5HRmcL9Fq",
+          "initialLoginScreenBackground": "assets/scenes/fvtt-login.webp",
+          "additionalItems": {
+            "sYm0DmnCzZ3xZlZP": [
+              "Compendium.pf2e-ap200-seven-dooms-for-sandpoint.items.Item.a4XtQkMXuLUDxOcR"
+            ]
+          }
+        }
+      },
+      "pf2e-art": "modules/pf2e-ap200-seven-dooms-for-sandpoint/image-mapping.json"
+    }
+  },
+  "packFolders": [
+    {
+      "name": "Seven Dooms",
+      "sorting": "m",
+      "color": "#011e4b",
+      "packs": [
+        "adventures",
+        "items"
+      ],
+      "folders": []
+    }
+  ],
+  "protected": true
+}
